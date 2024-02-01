@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            margin-top: 10px;
+            margin-left: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" id="product-name" placeholder="Enter Product name">
+    <input type="text" id="product-price" placeholder="Enter price"> 
+    <br>
+    <button class="btn" onclick="productName()">product name</button>
+    <br>
+    <ul id="items">
+
+    </ul>
+    <br>
+    <!-- local storage empty -->
+    <button onclick="placeOrder()">Place Order</button>
+    <script src="product.js"></script>
+</body>
+</html>
